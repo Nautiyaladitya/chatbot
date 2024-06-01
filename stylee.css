@@ -60,7 +60,7 @@ input {
 	background-color: rgb(255, 255, 255);
 	padding: 15px;
 	margin: 15px;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 #bot {
@@ -83,7 +83,7 @@ input {
 }
 
 
-/* Mobile */
+/* Mobile phone */
 
 @media only screen and (max-width: 980px) {
   .container {

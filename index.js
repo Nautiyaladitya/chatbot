@@ -15,8 +15,6 @@ function output(input) {
 
   // Regex remove non word/space chars
   // Trim trailing whitespce
-  // Remove digits - not sure if this is best
-  // But solves problem of entering something like 'hi1'
 
   let text = input.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
   text = text
